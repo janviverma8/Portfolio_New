@@ -47,7 +47,7 @@ body{
 #image-container {
     margin: auto;
     width: fit-content;
-    margin-top:-130px;
+    margin-top:-130px
 }
 #image-container img {
     border: 1px solid snow;
@@ -119,7 +119,7 @@ body{
 #Qualification{
     height:auto;
     background-color:darksalmon;
-    padding:20px;
+    padding:10px;
 
 }
 #Qualification .qua {
@@ -205,12 +205,17 @@ body{
         width:40%;
     }
 .box:nth-child(2n)::after{
-         left:-34%;
+         left:-48%;
 }
 .box:nth-child(2n){
         left:20%;
 }
 .box::after{
-right:132%;
+right:141%;
 }
+}
+@media screen and (max-width:450px) {
+    #image-container{
+        margin-top:-121px;
+    }
 }
